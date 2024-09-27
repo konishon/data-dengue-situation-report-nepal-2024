@@ -1,6 +1,8 @@
-# Dengue Cases Nepal 2024 Data Extraction
+# Dengue Cases Nepal 2024 Data Extraction 
 
-This project is a Python script that extracts tabular data from a PDF file (containing dengue cases data) and saves it to an Excel file. The extracted data can then be used for further analysis or reporting.
+This project is a Python script that extracts tabular data from a PDF file of **Epidemiology and Disease Control Division Department of Health Services, Ministry of Health & Population** (containing dengue cases data) and saves it to an Excel file. The extracted data can then be used for further analysis or reporting.
+
+> ℹ️ Visit the public data download platform to view dengue situation reports for Nepal 2024 on [https://konishon.github.io/data-dengue-situation-report-nepal-2024/](https://konishon.github.io/data-dengue-situation-report-nepal-2024/)
 
 
 ## Features
@@ -8,15 +10,7 @@ This project is a Python script that extracts tabular data from a PDF file (cont
 - Extract tables from a PDF document using `pdfplumber`.
 - Convert the extracted tables into a `pandas` DataFrame.
 - Save the DataFrame to an Excel file with a name derived from the original PDF file.
-- Command-line interface for easy use.
 
-## Requirements
-
-To run this script, you need to have Python installed along with the following Python libraries:
-
-- `pdfplumber`
-- `pandas`
-- `openpyxl`
 
 ### Installation
 
@@ -30,10 +24,19 @@ pip install -r requirements.txt
 ```
 
 ### Usage 
-python dengue_cases_nepal_data_extraction.py path/to/your/pdf_file.pdf
+#### Generating CSVs from PDFs
+```bash
+python generate_html.py data/CSVs/66f3af5ec20b2-2_extracted_tables.csv
+```
+![image](https://github.com/user-attachments/assets/59c1c126-326b-4fbd-94c3-5034bc369977)
 
-This will generate an Excel file named dengue_cases_nepal_extracted_tables.xlsx in the same directory as your PDF file.
+This will generate an CSV file named dengue_cases_nepal_extracted_tables.CSV
 
+#### Generatic Static Public Data Download Page
+```bash
+python generate_html.py data/CSVs/66f3af5ec20b2-2_extracted_tables.csv
+```
+This will generate the public data download page avalaible at [https://konishon.github.io/data-dengue-situation-report-nepal-2024/](https://konishon.github.io/data-dengue-situation-report-nepal-2024/)
 
 ### Error Handling
 
