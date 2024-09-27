@@ -1,0 +1,7 @@
+camelot-py[cv]
+pandas == 2.2.3
+PyPDF2 == 2.10.0
+openpyxl == 3.0.10
+tqdm
+plotly 
+argparse
