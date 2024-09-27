@@ -36,6 +36,9 @@ This will generate an CSV file named dengue_cases_nepal_extracted_tables.CSV
 ```bash
 python generate_html.py data/CSVs/66f3af5ec20b2-2_extracted_tables.csv
 ```
+![image](https://github.com/user-attachments/assets/eeb553d2-34f8-4b8f-a789-2dd04ae9065f)
+
+
 This will generate the public data download page avalaible at [https://konishon.github.io/data-dengue-situation-report-nepal-2024/](https://konishon.github.io/data-dengue-situation-report-nepal-2024/)
 
 ### Error Handling
