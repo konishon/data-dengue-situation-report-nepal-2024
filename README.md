@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ### Usage 
 #### Generating CSVs from PDFs
 ```bash
-python generate_html.py data/CSVs/66f3af5ec20b2-2_extracted_tables.csv
+python dengue_cases_nepal_data_extraction.py "data/PDFs/extracted/67049d6319129-2.pdf" --auto-clean 
 ```
 ![image](https://github.com/user-attachments/assets/59c1c126-326b-4fbd-94c3-5034bc369977)
 
