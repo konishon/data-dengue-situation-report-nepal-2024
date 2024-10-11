@@ -145,13 +145,13 @@ def generate_html(csv_file, output_dir):
             <div class="mt-5">
                 <h2>SITUATION REPORT ON DENGUE IN NEPAL- 2024</h2>
                 <p>This is a public portal for the project that extracts tabular data from a PDF file (containing dengue cases data) and saves it to an Excel file. The extracted data can then be used for further analysis or reporting.</p>
-                <p>You can view the full code that loads the PDF and converts it into Excel in the <a href="https://github.com/konishon/dengue">GitHub repository</a>.</p>
+                <p>You can view the full code that loads the PDF and converts it into Excel in the <a href="https://github.com/konishon/data-dengue-situation-report-nepal-2024">GitHub repository</a>.</p>
 
             </div>
             
             <!-- Download Button Below the Info Bar -->
             <div class="text-left mb-4">
-                <a href="66f3af5ec20b2-2_extracted_tables.csv" class="btn btn-primary" download>Download Excel</a>
+                <a href="67049d6319129-2_extracted_tables.csv" class="btn btn-primary" download>Download Excel</a>
             </div>
 
             <!-- Responsive row for charts -->
